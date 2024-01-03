@@ -1,30 +1,5 @@
-# github
+# 블로그 설명
 
-> A Vue.js project
+> 2019년 뷰로 제작한 포트폴리오 입니다. 파이어베이스의 Firestore,Storage 그리고 Authentication를 사용하여 로그인, 로그아웃, 포스트 작성, 이미지 업로드 등을 구현하였습니다.
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[블로그 보러 가기](https://sang-min.web.app/#/).
