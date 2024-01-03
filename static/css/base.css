@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+* {margin:0; padding:0; list-style:none; box-sizing:border-box; text-decoration:none; font-family:'Noto Sans KR', sans-serif; font-weight:300; color:#464646}
+body {overflow-x:hidden; background-color:#f8f8f8; transition:.2s background-color; overflow-y:scroll}
+html.writeMode, html.writeMode > body, html.writeMode #app {height:100%}
+html.writeMode > body {background-color:#28262a}
+
+.vb-dragger {width:2px; background-color:#fff; border-radius:2px; right:5px; transition:.2s width}
+.vb-dragger:hover {width:6px}
+.barColorBlack .vb-dragger {background-color:#666}
+.blogPostContents p {font-size:15px; font-weight: 400}
+
+@media screen and (max-width:600px){
+    body {padding-bottom:52px}
+}
